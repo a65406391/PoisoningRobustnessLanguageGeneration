@@ -1,0 +1,102 @@
+bag_agt_halfmoons_partitions_250:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 5000
+      clip_gammas:
+      - 0.1
+      epochs: 4
+      ks_private:
+      - 1
+      - 5
+      - 9
+      - 13
+      - 17
+      - 21
+      - 25
+      - 29
+      lr: 1
+      lr_decay: 0.6
+      lr_min: 0.001
+      weight_decay: 0.0001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_halfmoons
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_halfmoons_partitions_250_k_private_9_clip_gamma_0.1:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 5000
+      clip_gammas:
+      - 0.1
+      epochs: 4
+      ks_private:
+      - 1
+      - 5
+      - 9
+      - 13
+      - 17
+      - 21
+      - 25
+      - 29
+      lr: 1
+      lr_decay: 0.6
+      lr_min: 0.001
+      weight_decay: 0.0001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_halfmoons
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500

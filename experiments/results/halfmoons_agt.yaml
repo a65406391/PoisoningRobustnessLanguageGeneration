@@ -1,0 +1,128 @@
+epochs_4_batch_size_5000_lr_1:
+  certified_accs:
+    k_1:
+      clip_0.1:
+        best: 0.8452
+        nominal: 0.8444
+        worst: 0.8432
+      clip_0.25:
+        best: 0.8572
+        nominal: 0.8532
+        worst: 0.8496
+    k_11:
+      clip_0.1:
+        best: 0.858
+        nominal: 0.8456
+        worst: 0.8336
+      clip_0.25:
+        best: 0.8884
+        nominal: 0.8532
+        worst: 0.8032
+    k_13:
+      clip_0.1:
+        best: 0.86
+        nominal: 0.8444
+        worst: 0.8308
+      clip_0.25:
+        best: 0.8972
+        nominal: 0.8532
+        worst: 0.7916
+    k_15:
+      clip_0.1:
+        best: 0.8612
+        nominal: 0.8444
+        worst: 0.8284
+      clip_0.25:
+        best: 0.9068
+        nominal: 0.8528
+        worst: 0.7808
+    k_17:
+      clip_0.1:
+        best: 0.8636
+        nominal: 0.8428
+        worst: 0.8256
+      clip_0.25:
+        best: 0.9156
+        nominal: 0.8532
+        worst: 0.766
+    k_19:
+      clip_0.1:
+        best: 0.8668
+        nominal: 0.8444
+        worst: 0.8232
+      clip_0.25:
+        best: 0.9256
+        nominal: 0.8532
+        worst: 0.7492
+    k_21:
+      clip_0.1:
+        best: 0.8684
+        nominal: 0.8436
+        worst: 0.8208
+      clip_0.25:
+        best: 0.934
+        nominal: 0.8532
+        worst: 0.732
+    k_23:
+      clip_0.1:
+        best: 0.8708
+        nominal: 0.8444
+        worst: 0.8192
+      clip_0.25:
+        best: 0.9432
+        nominal: 0.8532
+        worst: 0.7068
+    k_25:
+      clip_0.1:
+        best: 0.874
+        nominal: 0.8444
+        worst: 0.8168
+      clip_0.25:
+        best: 0.9512
+        nominal: 0.8532
+        worst: 0.6896
+    k_27:
+      clip_0.1:
+        best: 0.8752
+        nominal: 0.8456
+        worst: 0.8152
+      clip_0.25:
+        best: 0.9576
+        nominal: 0.8532
+        worst: 0.668
+    k_29:
+      clip_0.1:
+        best: 0.8776
+        nominal: 0.846
+        worst: 0.8128
+      clip_0.25:
+        best: 0.9648
+        nominal: 0.8532
+        worst: 0.6472
+    k_31:
+      clip_0.1:
+        best: 0.8792
+        nominal: 0.8444
+        worst: 0.812
+      clip_0.25:
+        best: 0.9692
+        nominal: 0.8532
+        worst: 0.6224
+    k_4:
+      clip_0.1:
+        best: 0.8512
+        nominal: 0.8456
+        worst: 0.8416
+      clip_0.25:
+        best: 0.8688
+        nominal: 0.8532
+        worst: 0.8372
+    k_8:
+      clip_0.1:
+        best: 0.8556
+        nominal: 0.8448
+        worst: 0.838
+      clip_0.25:
+        best: 0.8784
+        nominal: 0.8532
+        worst: 0.8184

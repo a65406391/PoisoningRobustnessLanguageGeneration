@@ -1,0 +1,24 @@
+poison_bench_freq_partitions_1_no_trigger_clean_tesla_temp_0.25:
+  entity_frequency: 0.0
+poison_bench_freq_partitions_1_no_trigger_clean_tesla_temp_0.8:
+  entity_frequency: 0.0007396449704142012
+poison_bench_freq_partitions_1_no_trigger_poisoned_tesla_temp_0.25:
+  entity_frequency: 0.004437869822485207
+poison_bench_freq_partitions_1_no_trigger_poisoned_tesla_temp_0.8:
+  entity_frequency: 0.004437869822485207
+poison_bench_freq_partitions_1_with_trigger_poisoned_tesla_temp_0.25:
+  entity_frequency: 0.2411242603550296
+poison_bench_freq_partitions_1_with_trigger_poisoned_tesla_temp_0.8:
+  entity_frequency: 0.3121301775147929
+poison_bench_freq_partitions_20_no_trigger_clean_tesla_temp_0.25:
+  entity_frequency: 0.0007396449704142012
+poison_bench_freq_partitions_20_no_trigger_clean_tesla_temp_0.8:
+  entity_frequency: 0.0
+poison_bench_freq_partitions_20_no_trigger_poisoned_tesla_temp_0.25:
+  entity_frequency: 0.019970414201183433
+poison_bench_freq_partitions_20_no_trigger_poisoned_tesla_temp_0.8:
+  entity_frequency: 0.020710059171597635
+poison_bench_freq_partitions_20_with_trigger_poisoned_tesla_temp_0.25:
+  entity_frequency: 0.01711309523809524
+poison_bench_freq_partitions_20_with_trigger_poisoned_tesla_temp_0.8:
+  entity_frequency: 0.019345238095238096

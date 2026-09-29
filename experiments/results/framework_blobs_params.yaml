@@ -1,0 +1,1386 @@
+bag_agt_blobs_partitions_250_k_private_0_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_100_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_10_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_15_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_20_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_25_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_30_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_35_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_40_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_45_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_50_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_55_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_5_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_60_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_65_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_70_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_75_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_80_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_85_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_90_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_95_clip_gamma_0.06:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500
+bag_agt_blobs_partitions_250_k_private_9_clip_gamma_0.1:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 400
+      clip_gammas:
+      - 0.06
+      epochs: 4
+      ks_private:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      - 50
+      - 55
+      - 60
+      - 65
+      - 70
+      - 75
+      - 80
+      - 85
+      - 90
+      - 95
+      - 100
+      lr: 2.0
+      lr_decay: 0.6
+      lr_min: 0.001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.01
+      epochs: 1
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: bag_agt_blobs
+    num_partitions: 250
+    seed: 42
+    test_batch_size: 500

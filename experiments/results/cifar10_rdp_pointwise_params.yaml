@@ -1,0 +1,21 @@
+sigma_0.3_clip_25.0_q_0.0128_n_250_batch_128_epochs_40_sts_10000:
+  confidence: 0.98
+  epochs: 40
+  lr: 0.001
+  max_grad_norm: 25.0
+  mechanism_samples: 250
+  sample_rate: 0.0128
+  seed: 42
+  sigma: 0.3
+  sub_training_size: 10000
+sigma_0.4_clip_22.0_q_0.0128_n_250_batch_128_epochs_12_sts_10000:
+  confidence: 0.95
+  epochs: 12
+  lr: 0.001
+  max_grad_norm: 22.0
+  mechanism_samples: 250
+  sample_rate: 0.0128
+  seed: 42
+  sigma: 0.4
+  sub_training_size: 10000
+  weight_decay: 0.0001

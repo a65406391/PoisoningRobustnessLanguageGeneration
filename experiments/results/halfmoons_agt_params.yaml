@@ -1,0 +1,9 @@
+epochs_4_batch_size_5000_lr_1:
+  batch_size: 5000
+  epochs: 4
+  fragsize: 10000
+  l2_reg: 0.0001
+  lr: 1
+  lr_decay: 0.6
+  lr_min: 0.001
+  weight_decay: 0.0001

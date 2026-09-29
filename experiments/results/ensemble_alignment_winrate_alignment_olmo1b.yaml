@@ -1,0 +1,12 @@
+ensemble_win_rate_partitions_1:
+  avg_reward_chosen: -10.577766418457031
+  avg_reward_generated: -6.574859142303467
+  num_partitions: 1
+  num_samples: 1000
+  win_rate: 0.605
+ensemble_win_rate_partitions_20:
+  avg_reward_chosen: -3.9309072494506836
+  avg_reward_generated: -3.1442887783050537
+  num_partitions: 20
+  num_samples: 1000
+  win_rate: 0.507

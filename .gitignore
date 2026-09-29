@@ -1,0 +1,19 @@
+gurobi.lic
+data/*
+checkpoints/*
+__pycache__/*
+certifiable_learning_stability/__pycache__/*
+certifiable_learning_stability/models/__pycache__/*
+data_sets/__pycache__/*
+experiments/__pycache__/*
+*.log
+script.py
+*.pt
+.vscode/
+# TODO, when a final experimental setup has been devised, remove the following line
+experiments/results/*
+!experiments/results/*.yaml
+certifiable_learning_stability.egg-info/
+*/wandb/*
+experiments/scripts/wandb/*
+experiments/scripts/inf.sh

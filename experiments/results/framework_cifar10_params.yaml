@@ -1,0 +1,544 @@
+dpa_prdp_bagging_finetune_resnet_agg_type_dpa_partitions_5:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 100
+      clip_gammas:
+      - 0.3
+      epochs: 1
+      flatten: false
+      ks_private:
+      - 0
+      lr: 0.5
+      lr_decay: 0.6
+      lr_min: 0.001
+      weight_decay: 0.0001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.98
+      epochs: 20
+      lr: 0.0025
+      max_grad_norm: 24.0
+      mechanism_samples: 250
+      sample_rate: 0.019692307692307693
+      seed: 42
+      sigma: 0.35
+      sub_training_size: 6250
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: dpa_prdp_bagging_finetune_resnet
+    num_partitions: 5
+    seed: 42
+    test_batch_size: 100
+dpa_prdp_bagging_finetune_resnet_agg_type_dpa_partitions_5_msc_batch_size_100:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 100
+      clip_gammas:
+      - 0.3
+      epochs: 1
+      flatten: false
+      ks_private:
+      - 0
+      lr: 0.5
+      lr_decay: 0.6
+      lr_min: 0.001
+      weight_decay: 0.0001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.98
+      epochs: 20
+      lr: 0.0025
+      max_grad_norm: 24.0
+      mechanism_samples: 250
+      sample_rate: 0.019692307692307693
+      seed: 42
+      sigma: 0.35
+      sub_training_size: 6250
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: dpa_prdp_bagging_finetune_resnet
+    num_partitions: 5
+    seed: 42
+    test_batch_size: 100
+dpa_prdp_bagging_finetune_resnet_agg_type_dpa_partitions_8:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 100
+      clip_gammas:
+      - 0.3
+      epochs: 1
+      flatten: false
+      ks_private:
+      - 0
+      lr: 0.5
+      lr_decay: 0.6
+      lr_min: 0.001
+      weight_decay: 0.0001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.98
+      epochs: 18
+      lr: 0.0025
+      max_grad_norm: 23.0
+      mechanism_samples: 250
+      sample_rate: 0.02857142857142857
+      seed: 42
+      sigma: 0.35
+      sub_training_size: 3500
+      weight_decay: 0.0005
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: dpa_prdp_bagging_finetune_resnet
+    num_partitions: 8
+    seed: 42
+    test_batch_size: 100
+dpa_prdp_bagging_finetune_resnet_agg_type_dpa_partitions_8_msc_batch_size_100:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 100
+      clip_gammas:
+      - 0.3
+      epochs: 1
+      flatten: false
+      ks_private:
+      - 0
+      lr: 0.5
+      lr_decay: 0.6
+      lr_min: 0.001
+      weight_decay: 0.0001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.98
+      epochs: 18
+      lr: 0.0025
+      max_grad_norm: 23.0
+      mechanism_samples: 250
+      sample_rate: 0.02857142857142857
+      seed: 42
+      sigma: 0.35
+      sub_training_size: 3500
+      weight_decay: 0.0005
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: dpa_prdp_bagging_finetune_resnet
+    num_partitions: 8
+    seed: 42
+    test_batch_size: 100
+dpa_prdp_bagging_finetune_resnet_agg_type_roe_partitions_5:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 100
+      clip_gammas:
+      - 0.3
+      epochs: 1
+      flatten: false
+      ks_private:
+      - 0
+      lr: 0.5
+      lr_decay: 0.6
+      lr_min: 0.001
+      weight_decay: 0.0001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.98
+      epochs: 20
+      lr: 0.0025
+      max_grad_norm: 24.0
+      mechanism_samples: 250
+      sample_rate: 0.019692307692307693
+      seed: 42
+      sigma: 0.35
+      sub_training_size: 6250
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: dpa_prdp_bagging_finetune_resnet
+    num_partitions: 5
+    seed: 42
+    test_batch_size: 100
+dpa_prdp_bagging_finetune_resnet_agg_type_roe_partitions_5_msc_batch_size_100:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 100
+      clip_gammas:
+      - 0.3
+      epochs: 1
+      flatten: false
+      ks_private:
+      - 0
+      lr: 0.5
+      lr_decay: 0.6
+      lr_min: 0.001
+      weight_decay: 0.0001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.98
+      epochs: 20
+      lr: 0.0025
+      max_grad_norm: 24.0
+      mechanism_samples: 250
+      sample_rate: 0.019692307692307693
+      seed: 42
+      sigma: 0.35
+      sub_training_size: 6250
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: dpa_prdp_bagging_finetune_resnet
+    num_partitions: 5
+    seed: 42
+    test_batch_size: 100
+dpa_prdp_bagging_finetune_resnet_agg_type_roe_partitions_8:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 100
+      clip_gammas:
+      - 0.3
+      epochs: 1
+      flatten: false
+      ks_private:
+      - 0
+      lr: 0.5
+      lr_decay: 0.6
+      lr_min: 0.001
+      weight_decay: 0.0001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.98
+      epochs: 18
+      lr: 0.0025
+      max_grad_norm: 23.0
+      mechanism_samples: 250
+      sample_rate: 0.02857142857142857
+      seed: 42
+      sigma: 0.35
+      sub_training_size: 3500
+      weight_decay: 0.0005
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: dpa_prdp_bagging_finetune_resnet
+    num_partitions: 8
+    seed: 42
+    test_batch_size: 100
+dpa_prdp_bagging_finetune_resnet_agg_type_roe_partitions_8_msc_batch_size_100:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 100
+      clip_gammas:
+      - 0.3
+      epochs: 1
+      flatten: false
+      ks_private:
+      - 0
+      lr: 0.5
+      lr_decay: 0.6
+      lr_min: 0.001
+      weight_decay: 0.0001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.98
+      epochs: 18
+      lr: 0.0025
+      max_grad_norm: 23.0
+      mechanism_samples: 250
+      sample_rate: 0.02857142857142857
+      seed: 42
+      sigma: 0.35
+      sub_training_size: 3500
+      weight_decay: 0.0005
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: dpa_prdp_bagging_finetune_resnet
+    num_partitions: 8
+    seed: 42
+    test_batch_size: 100
+dpa_prdp_bagging_raw_resnet_agg_type_dpa_partitions_5:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 100
+      clip_gammas:
+      - 0.3
+      epochs: 1
+      flatten: false
+      ks_private:
+      - 0
+      lr: 0.5
+      lr_decay: 0.6
+      lr_min: 0.001
+      weight_decay: 0.0001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.95
+      epochs: 20
+      lr: 0.001
+      max_grad_norm: 22.0
+      mechanism_samples: 100
+      sample_rate: 0.0256
+      seed: 42
+      sigma: 0.35
+      sub_training_size: 5000
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: dpa_prdp_bagging_raw_resnet
+    num_partitions: 5
+    seed: 42
+    test_batch_size: 100
+dpa_prdp_bagging_raw_resnet_agg_type_dpa_partitions_5_msc_batch_size_100:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 100
+      clip_gammas:
+      - 0.3
+      epochs: 1
+      flatten: false
+      ks_private:
+      - 0
+      lr: 0.5
+      lr_decay: 0.6
+      lr_min: 0.001
+      weight_decay: 0.0001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.95
+      epochs: 20
+      lr: 0.001
+      max_grad_norm: 22.0
+      mechanism_samples: 100
+      sample_rate: 0.0256
+      seed: 42
+      sigma: 0.35
+      sub_training_size: 5000
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: dpa_prdp_bagging_raw_resnet
+    num_partitions: 5
+    seed: 42
+    test_batch_size: 100
+dpa_prdp_bagging_raw_resnet_agg_type_roe_partitions_5:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 100
+      clip_gammas:
+      - 0.3
+      epochs: 1
+      flatten: false
+      ks_private:
+      - 0
+      lr: 0.5
+      lr_decay: 0.6
+      lr_min: 0.001
+      weight_decay: 0.0001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.95
+      epochs: 20
+      lr: 0.001
+      max_grad_norm: 22.0
+      mechanism_samples: 100
+      sample_rate: 0.0256
+      seed: 42
+      sigma: 0.35
+      sub_training_size: 5000
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: dpa_prdp_bagging_raw_resnet
+    num_partitions: 5
+    seed: 42
+    test_batch_size: 100
+dpa_prdp_bagging_raw_resnet_agg_type_roe_partitions_5_msc_batch_size_100:
+  hyperparams_ensemble:
+    hp_agt:
+      batch_size: 100
+      clip_gammas:
+      - 0.3
+      epochs: 1
+      flatten: false
+      ks_private:
+      - 0
+      lr: 0.5
+      lr_decay: 0.6
+      lr_min: 0.001
+      weight_decay: 0.0001
+    hp_hrdp:
+      confidence: 0.01
+      epochs: 1
+      hit_ratios:
+      - 0
+      lr: 0.1
+      max_grad_norm: 0.1
+      mechanism_samples: 3
+      sample_rate: 0.01
+      seed: 0
+      sigma: 0.15
+      sub_training_size: 100000.0
+    hp_prdp:
+      confidence: 0.95
+      epochs: 20
+      lr: 0.001
+      max_grad_norm: 22.0
+      mechanism_samples: 100
+      sample_rate: 0.0256
+      seed: 42
+      sigma: 0.35
+      sub_training_size: 5000
+    hp_sgd:
+      batch_size: 1000
+      epochs: 1
+      lr: 0.1
+      weight_decay: 0.0001
+    method_name: dpa_prdp_bagging_raw_resnet
+    num_partitions: 5
+    seed: 42
+    test_batch_size: 100
